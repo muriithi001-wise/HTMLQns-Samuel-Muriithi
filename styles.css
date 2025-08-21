@@ -1,13 +1,22 @@
-.site-header {
-  background: darkgray;
-  color: white;
+* { margin: 0; }
+body { color: red; }
+
+.site-header { 
+  background: green; 
+  color: white; 
+  text-align: center; 
 }
 
-.main-navigation {
-  background: gray;
-}
+.main-navigation { background: blue; }
+.main-navigation a { color: white; margin-right: 2rem; }
+.main-navigation a:hover { background: yellow; color: black; }
 
-.site-footer {
-  background: darkgray;
-  color: white;
+table { width: 100%; border-collapse: collapse; }
+th, td { border: 1px solid gray; }
+th { background: orange; color: white; }
+
+.site-footer { 
+  background: black; 
+  color: white; 
+  text-align: center; 
 }
